@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container a {
+    text-decoration: none;
+}
+
+header .container h1 {
+    text-transform: uppercase;
+    color: white;
+}
+
+header .container h1 span {
+    color: crimson;
+}
+
+header .container nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+header .container nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 13px;
+    transition: .5s;
+}
+
+header .container nav ul li a:hover {
+    color: crimson;
+}
+
+#home {
+    background-color: #ccc;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .container {
+    width: 45%;
+    text-align: center;
+}
+
+#home .container h2 {
+    color: crimson;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#home .container p {
+    font-size: 20px;
+}
+
+#home .container a {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#sobre .container h2 {
+    color: crimson;
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#contato .container h2 {
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+#sobre .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0e9e9;
+}
+
+#sobre .container .content p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contato {
+    background-color: black;
+}
+
+#contato .container {
+    display: block;
+}
+
+#contato .container .row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#contato .container h3 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#contato .row {
+    padding: 30px;
+}
+
+#contato .row form input,
+#contato .row form textarea,
+#contato .row form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+#contato form input:focus,
+#contato form textarea:focus {
+    outline: none;
+}
+
+#contato .row form button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#contato .row form button:hover {
+    background-color: white;
+    color: crimson;
+}
+
+#contato .row form textarea {
+    resize: none;
+    height: 180px;
+}
+
+#contato .container p {
+    color: white;
+}
+
+#contato .row ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contato .row ul li {
+    list-style: none;
+}
+
+#contato .row ul li img {
+    margin-top: 10px;
+    height: 40px;
+}
+
+footer {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
